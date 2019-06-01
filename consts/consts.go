@@ -1,13 +1,13 @@
 package consts
 
+// Consts used across the code base
+// TODO: as codebase grows, breakout into seperate lists
 const (
-	Username                   = "gathirum"
 	APIVersion                 = "3.0"
 	RepositoryName             = "aks-rp"
 	Project                    = "CloudNativeCompute"
 	Instance                   = "msazure.visualstudio.com"
 	PullRequestStatusCompleted = "completed"
-	DatabaseUsername           = "gathirum"
 	DatabaseName               = "gathirumdashboarddb"
 	DatabasePort               = 1433
 )

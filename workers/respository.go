@@ -71,8 +71,3 @@ func GetAllReleases(repoClient *vsts.Client) {
 	err := repoClient.GetReleases()
 	fmt.Println(err)
 }
-
-// Unit test code coverage (fix the calculation for code coverage)
-// Number of PRs merged every week
-// Time from PR creation to merge
-// How long a build sits in a production region

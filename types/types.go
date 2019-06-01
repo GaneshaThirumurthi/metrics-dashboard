@@ -4,12 +4,6 @@ import (
 	"time"
 )
 
-// type Repository struct {
-// 	id string  `json:"id,omitempty"`
-// 	name string `json:"name,omitempty"`
-// 	url string `url:"name,omitempty"`
-// }
-
 type PullRequestList struct {
 	PullRequests []*PullRequest
 }
@@ -27,4 +21,13 @@ type PullRequest struct {
 // PullRequestSearchCriteria for PRs
 type PullRequestSearchCriteria struct {
 	Status string `json:"status,omitempty"`
+}
+
+// DatabaseConfig is the configuration elements to create a database
+type DatabaseConfig struct {
+	Server   string
+	Port     int
+	User     string
+	Password string
+	Database string
 }
