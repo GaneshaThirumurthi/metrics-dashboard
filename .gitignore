@@ -1,0 +1,8 @@
+#Configs
+config/*
+
+# Binary
+metrics-dashboard
+
+# Old code
+old/*
