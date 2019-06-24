@@ -59,3 +59,7 @@ func (db *Database) SelectVersion() {
 	}
 	fmt.Printf("%s\n", result)
 }
+
+func Other() int {
+	return 4
+}
