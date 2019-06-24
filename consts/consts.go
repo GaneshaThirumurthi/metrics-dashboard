@@ -10,4 +10,6 @@ const (
 	PullRequestStatusCompleted = "completed"
 	DatabaseName               = "gathirumdashboarddb"
 	DatabasePort               = 1433
+	AksRepoPath                = "/Users/ganeshathirumurthi/go/src/goms.io/aks/rp/"
+	GoExecutable               = "go"
 )
